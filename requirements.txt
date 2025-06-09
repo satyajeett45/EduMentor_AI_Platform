@@ -1,0 +1,15 @@
+pandas
+numpy
+seaborn
+matplotlib
+scikit-learn
+joblib
+xgboost
+imbalanced-learn
+langchain
+python-dotenv
+streamlit
+groq
+tqdm
+langchain_community
+langchain-groq
