@@ -1,5 +1,6 @@
 #config.py 
 import os
+from datetime import datetime
 
 # -------------------------------
 # Feature Configuration
@@ -32,6 +33,8 @@ CLASSIFIER_MODEL_PATH = 'artifacts/best_classification_model.pkl'
 SCALER_PATH = 'artifacts/scaler.pkl'
 ENCODERS_PATH = 'artifacts/label_encoders.pkl'
 STUDENT_DATA_PATH = r'C:\Users\Admin\OneDrive\Desktop\Edumentor platform\Data\edu_mentor_dataset_final.csv'
+TEACHERS_CSV = "Data/users.csv"
+FEEDBACK_FILE = "Data/teacher_feedback.csv"
 
 # -------------------------------
 # LLM & API Keys (Set via .env or environment)
